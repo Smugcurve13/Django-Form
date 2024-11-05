@@ -10,4 +10,4 @@ class Form(models.Model):
     occupation = models.CharField(max_length=80)
 
     def __str__(self):
-        return f"{self.first_name}{self.last_name}"
+        return f"{self.first_name} {self.last_name}"
